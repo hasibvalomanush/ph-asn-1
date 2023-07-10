@@ -6,4 +6,16 @@ body{
 /* Welcome Bar CSS */
 header{
     display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 197px 247px 147px 247px  ;
+    border: 97px;
+    margin: 0px;
+}
+.wel-tittle{
+    color: #272727;
+
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
