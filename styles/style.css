@@ -2,20 +2,38 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.btn-color{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px
+       
+}
+.p-color{
+    color: gray;
+}
 
 /* Welcome Bar CSS */
 header{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
-    padding: 197px 247px 147px 247px  ;
+    padding: 197px 127px 147px 247px  ;
     border: 97px;
     margin: 0px;
+    justify-content: space-between; 
+    align-items: center;
+
+
+
 }
+
 .wel-tittle{
     color: #272727;
-
-font-size: 70px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
