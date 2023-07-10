@@ -1,0 +1,9 @@
+/* Common Styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Welcome Bar CSS */
+header{
+    display: flex;
+}
