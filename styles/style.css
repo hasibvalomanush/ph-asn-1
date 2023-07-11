@@ -88,7 +88,58 @@ nav{
     align-items: center;  
 
 }
+/* instagram css */
 .Instagram{
     text-align: center;
     padding: 50px 0px 0px 0px;
+}
+.instagram-pics img {
+       margin-right: 10px;
+       padding: 25x; 
+      
+}      
+    
+    
+
+.img-5{
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+.img-6{
+    width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+.img-7{
+    width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+.img-8{
+    width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+
+/* latest css */
+.latest{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: center;
+
+}
+/* footer css */
+.footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    
+}
+.pink{
+    color:#E55473
 }
