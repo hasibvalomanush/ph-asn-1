@@ -38,3 +38,11 @@ nav{
     font-weight: 900;
     line-height: normal;
 }
+/* Feature CSS */
+
+.featured{
+    text-align: center;
+}
+.featured-pics{
+    display: flex;
+}
