@@ -22,13 +22,17 @@ nav{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     padding: 97px 120px 0px 150px  ;
-    border: 97px;
+    border: 0px;
+    margin: 0px;
 
      justify-content: space-between; 
      align-items: center;  
 
 
 
+}
+.logo{
+    padding-bottom: 0px;
 }
 
 .wel-tittle{
@@ -42,21 +46,22 @@ nav{
 
 .featured{
     text-align: center;
-    padding: 50px 0px 0px 0px;
+    padding: 150px 60px 0px 60px;
+    font-size: 20px;
 }
 .featured-pics{
     display: flex;
     margin-top: 20px;
-    padding: 10px;
+    padding: 150px ;
     text-align: center;
     text-decoration: underline;
-    justify-content: space-between; 
-    align-items: center;  
+    justify-content: space-between;  
+    align-items: center;   
     
 }
 .img-1{
-    width: 310px;
-    height: 428px;
+    width: 210px;
+    height: 328px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 78px 0px 76px;
@@ -64,15 +69,15 @@ nav{
     
 }
 .img-2{
-    width: 370px;
-    height: 370px;
+    width: 270px;
+    height: 270px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 110px 78px 58px 76px;
 }
 .img-3{
-    width: 314px;
-    height: 471px;
+    width: 214px;
+    height: 330px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 110px 78px 0px 76px;
@@ -91,7 +96,8 @@ nav{
 /* instagram css */
 .Instagram{
     text-align: center;
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0px 10px 0px;
+    font-size: 20px;
 }
 .instagram-pics img {
        margin-right: 10px;
@@ -134,12 +140,29 @@ flex-shrink: 0;
 
 }
 /* footer css */
-.footer{
+
+
+.footer {
     color: white;
     text-align: center;
     background-color: black;
-    
-}
-.pink{
-    color:#E55473
-}
+  }
+  
+  .ft-padding {
+    padding: 60px;
+  }
+  
+  .footer h3,
+  .footer p {
+    margin: 0;
+  }
+  
+  .pink {
+    color: #E55473;
+  }
+  .ft-logo{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 50px;
+    }
