@@ -42,7 +42,37 @@ nav{
 
 .featured{
     text-align: center;
+    padding: 50px 0px 0px 0px;
 }
 .featured-pics{
     display: flex;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 100px;
+}
+.img-1{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 76px;
+    
+}
+.img-2{
+    width: 370px;
+    height: 370px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 78px 58px 76px;
+}
+.img-3{
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 78px 0px 76px;
+
 }
