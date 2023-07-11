@@ -131,13 +131,27 @@ flex-shrink: 0;
 /* latest css */
 .latest{
     text-align: center;
-    padding: 20px 0px 0px 0px;
-
-    background-image: url(../images/Rectangle\ 9.png);
+    padding: 20px 0px 0px 0px; 
+     background-image: url(../images/Rectangle\ 9.png);
     background-repeat: no-repeat;
-    background-size: 1000px;
+    /* background-size: 1000px; */
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
     background-position: center;
 
+}
+.latest-style{  
+    padding: 50px;
+  text-align: center;
+
+}
+.btn-input{
+    width: 500px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
 }
 /* footer css */
 
@@ -146,6 +160,7 @@ flex-shrink: 0;
     color: white;
     text-align: center;
     background-color: black;
+    
   }
   
   .ft-padding {
