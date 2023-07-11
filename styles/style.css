@@ -47,11 +47,12 @@ nav{
 .featured-pics{
     display: flex;
     margin-top: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: underline;
     justify-content: space-between; 
     align-items: center;  
-    padding: 100px;
+    
 }
 .img-1{
     width: 310px;
@@ -59,6 +60,7 @@ nav{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 78px 0px 76px;
+
     
 }
 .img-2{
@@ -75,4 +77,18 @@ nav{
     background: rgba(71, 125, 17, 0.15);
     padding: 110px 78px 0px 76px;
 
+}
+/* Hot Deal CSS */
+.hot-deals{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 97px 120px 0px 150px  ;
+    border: 97px;
+    justify-content: space-between; 
+    align-items: center;  
+
+}
+.Instagram{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
 }
